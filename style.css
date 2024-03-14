@@ -1,0 +1,5 @@
+/* works sans font from google fonts */
+*{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
