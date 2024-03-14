@@ -3,6 +3,15 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
+}
 
 /* header styles */
 header{
@@ -46,4 +55,31 @@ nav li a {
 }
 .banner-description{
     color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* responsive website design */
+
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
